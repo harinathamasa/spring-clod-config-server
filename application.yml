@@ -1,0 +1,9 @@
+server.port: 8033
+db:
+   connection: "{hostname:https://localhost,username:mariadb,password:hello123}"
+   port: 8086
+   ipAddress:  127.0.1.0
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: "test"
