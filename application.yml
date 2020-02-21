@@ -1,3 +1,4 @@
+welcome.message: Good Morning from the Git repo
 db:
    connection: "{hostname:https://localhost,username:mariadb,password:hello123}"
    port: 8086
